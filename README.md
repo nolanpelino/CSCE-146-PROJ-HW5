@@ -1,4 +1,4 @@
 # CSCE-146-PROJ-HW5
 Class Project
 
-This Project is focused on binary search trees, nodes, and the Class<T> for shape objects. LinkedBST.java
+This Project is focused on binary search trees, nodes, and the Class<T> for shape objects. LinkedBST.java contains the constructors and methods for the data structure. The shape.java file contains all of the basic constructors and methods for the shapes. It implements comparable, which is crucial in sorting and moving throughout the BST. All of the files name <shapetype>.java contain class-specific constructors, methods, and data while also extending the shape class. The testing file, ShapeTester.java scans a list of shape objects from shapeFile.txt and populates a linked binary search tree, "shapetree." The tree is put into preorder, postorder, and inorder. Shapes can be removed from the tree based off of their data. This project was insturmental in my learning of binary search trees and how they are implemented. 
