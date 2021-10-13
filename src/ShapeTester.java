@@ -44,13 +44,14 @@ public class ShapeTester {
             System.out.println("That line is not properly formatted.");
         }
         shapeTree.printPreorder();
-        System.out.println("removing two shapes");
+        System.out.println("\nremoved two shapes");
         shapeTree.remove(new Rectangle(3, 8));
         shapeTree.remove(new Circle(9));
+        System.out.println("\nPreorder");
         shapeTree.printPreorder();
-        System.out.println("Post");
+        System.out.println("\nPostorder");
         shapeTree.printPostorder();
-        System.out.println("inorder");
+        System.out.println("\nInorder");
         shapeTree.printInorder();
         System.out.println("\nRemoving > 25\n");
         shapeTree.deleteAreas(25.0);
